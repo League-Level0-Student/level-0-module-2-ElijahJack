@@ -5,11 +5,13 @@ package random;
 
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 public class IntroToRandom {
 	public static void main(String[] args) {
 		
-		int r = 0;
-		
+		Random r = new Random();
+System.out.println(r.nextInt(((88 - -222)+1))+-222);
 		//3. Now make r random. 
 		//   Create an object of the Random class
 		//	 use .nextInt() to get a random number
