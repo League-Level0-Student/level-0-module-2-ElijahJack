@@ -19,7 +19,22 @@ public class Validation {
 		// 2. On paper, write all the numbers that get printed when you run this class 10 times
 		
 		System.out.println(randomNumber);
-
+		if (randomNumber == 4) {
+	JOptionPane.showMessageDialog(null, "You are not as boring as you look.");
+		}
+		if (randomNumber == 0) {
+			JOptionPane.showMessageDialog(null, "You are only slightly dissapointing.");
+				}	
+		if (randomNumber == 1) {
+					JOptionPane.showMessageDialog(null, "You are a happy accident. Kind of like the invention of chocolate chip cookies.");
+				}	
+		if (randomNumber == 2) {
+					JOptionPane.showMessageDialog(null, "You make almost everyone around you happy.");
+				}	
+		if (randomNumber == 3) {
+					JOptionPane.showMessageDialog(null, "You may not be beautiful on the outside, but you are on the inside.");
+				}	
+		
 		// 3. Use each value of randomNumber to give the user a random compliment.
 
 		// 4. Repeat all the code above 10 times
